@@ -12,10 +12,9 @@ export function Footer() {
         </p>
 
         <div className="flex gap-6">
-            <a href="#" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">Docs</a>
-            <a href="#" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">GitHub</a>
-            <a href="#" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">Twitter</a>
-            <a href="#" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">Contact</a>
+            <a href="https://github.com/legendaryabhi" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">GitHub</a>
+            <a href="https://x.com/abhinavsharma_x" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">Twitter</a>
+            <a href="mailto:abhinav@codeatoms.org" className="text-sm text-slate-500 hover:text-white transition-colors cursor-not-allowed">Contact</a>
         </div>
       </div>
     </footer>
