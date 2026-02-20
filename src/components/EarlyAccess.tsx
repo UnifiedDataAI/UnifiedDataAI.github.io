@@ -50,7 +50,7 @@ export function EarlyAccess() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-brand-900/20 via-slate-950 to-slate-950"></div>
 
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-6">
+        <h2 className="text-3xl font-bold tracking-tight text-white mb-6">
           Get Early Access
         </h2>
 
@@ -60,7 +60,7 @@ export function EarlyAccess() {
 
         {success ? (
           <p className="text-green-400 text-lg font-medium">
-             You’re on the list! We’ll be in touch soon.
+             You're on the list! We'll be in touch soon.
           </p>
         ) : (
           <form

@@ -4,6 +4,8 @@ import { Explanation } from "./components/Explanation"
 import { Features } from "./components/Features"
 import { CodeSection } from "./components/CodeSection"
 import { Steps } from "./components/Steps"
+import { SecuritySection } from "./components/SecuritySection"
+import { Testimonials } from "./components/Testimonials"
 import { EarlyAccess } from "./components/EarlyAccess"
 import { Footer } from "./components/Footer"
 
@@ -17,6 +19,8 @@ function App() {
         <Features />
         <CodeSection />
         <Steps />
+        <SecuritySection />
+        <Testimonials />
         <EarlyAccess />
       </main>
       <Footer />
